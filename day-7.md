@@ -27,4 +27,6 @@ I learnt shortcuts for working around the terminal, I completed my project on us
 - I used terraform -refresh-only to apply latest changes without destroying the current infrastructure
 - I studied AWS compute EC2 resources on Cloud Academy.
 
+Github link for Terraform project with AWS - https://github.com/Sulaymon333/terraform-with-aws
+
 #linux #linuxsystemadministration #terraform #cloudcomputing #learninpublic
