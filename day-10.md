@@ -8,7 +8,7 @@
   - The computing power is based on the memory spec. (min is 128MB, max is 10,240MB) which in turn affects the CPU, network, and disk I/O operations.
   - Other needs (permissions, env. variables, etc) can be specified in the function
   - Java, Go, Nodejs, PowerShell, C#, Python and Ruby are natively supported runtimes. Custom runtime can be used for other programming languages
-  - The input is simply invoking the function via a trigger based on a specified event/service call, HTTP endpoint, or direct invocation.
+  - The input is simply invoking the function via a trigger based on a specified event/AWS service call, HTTP endpoint, or direct invocation.
   - Invoking the function can be through AWS management console, CLI, SDK, AWS toolkits, function URL (HTTP endpoint), AWS service, or resource
   - The output is the final stage of a lambda function. It is the result of your function call to a downstream resource, an API call to other AWS services, and so on.
   - Lambda function activities can be monitored and measured via CloudWatch. It is possible to write custom logging and monitoring codes in the function. The most important logging metrics are invocation, performance and concurrency metrics.
