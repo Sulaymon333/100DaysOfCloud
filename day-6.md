@@ -1,6 +1,6 @@
-Day 6 of #100daysofcloud
+# Day 6 of #100daysofcloud
 
-I spin off a couple of web servers from the command line using python, php, node & apache, continued my Terraform with AWS project, and started studying for my AWS SAA-C03 certification
+### I spin off a couple of web servers from the command line using python, php, node & apache, continued my Terraform with AWS project, and started studying for my AWS SAA-C03 certification
 
 - I used one-liners in python, php, node, and apache to start web servers
 - I used the curl command with different flags (-v, o, I), also the wget command to interact with webpage codes and analyse both request and response header data

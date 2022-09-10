@@ -1,6 +1,6 @@
-Day 7 of #100daysofcloud
+# Day 7 of #100daysofcloud
 
-I learned shortcuts for working around the terminal, I completed my project on using Terraform with AWS and continued studying for my AWS SAA-C03 certification
+### I learned shortcuts for working around the terminal, I completed my project on using Terraform with AWS and continued studying for my AWS SAA-C03 certification
 
 - I learnt a number of cool commands and shortcuts like (cd -, sudo !!, !<cmd>, ctrl/cmd + ⇦ or ⇨, ctrl+e, ctrl+a, ctrl+k, ctrl+y, ctrl+w, ctrl+r, ctrl+x+e, tail/head, less vs cat)
 

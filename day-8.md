@@ -1,6 +1,6 @@
-Day 8 of #100daysofcloud
+# Day 8 of #100daysofcloud
 
-I revised more tricks with files/folders creation in Linux, investigated more terraform projects, and continued studying compute for my AWS SAA-C03 certification
+### I revised more tricks with files/folders creation in Linux, investigated more terraform projects, and continued studying compute for my AWS SAA-C03 certification
 
 - I played with touch, cat, echo, mkdir (using appropriate flags), and so on to create new files and folders
 

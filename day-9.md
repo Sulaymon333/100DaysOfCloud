@@ -1,6 +1,6 @@
-Day 9 of #100daysofcloud
+# Day 9 of #100daysofcloud
 
-I went deeper into different aspects of AWS compute using AWS doc and completed two mock tests on the same topic for my AWS SAA-C03 certification prep. More real-world resume projects on Terraform with AWS
+### I went deeper into different aspects of AWS compute using AWS doc and completed two mock tests on the same topic for my AWS SAA-C03 certification prep. More real-world resume projects on Terraform with AWS
 
 - I dug further into the AWS doc on the instances buying option. I investigated the reserved instance discounted options. I learned about the savings billing discount, savings plans, and how reserved instance pricing works in general. See more details here https://lnkd.in/dWANfcq5
 - I learned the 4 main determinants for reserved instance pricing. The four instant variables are instance type, the region where the reserved instance is purchased, platform - Windows, Linux/Unix, Tenancy - shared or dedicated (single-tenant) hardware
