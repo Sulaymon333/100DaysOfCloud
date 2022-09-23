@@ -22,6 +22,6 @@
 
 - Hosting a website with an S3 bucket implies we have a region-specific endpoint which means the bucket and its content must be public, with no support for HTTPS, and no support for requester pays.
 
-- I learned that Transfer Acceleration is used to speed up a long-distance S3 data transfer across AWS regions/remote clients using CloudFront. CloudFront uses edge location to achieve such high speed. There is a cost for both in-and-out S3 data transfer. The Bucket name for transfer acceleration must be DNS compliant.
+- I learned that Transfer Acceleration is used to speed up a long-distance S3 data transfer across AWS regions/remote clients using CloudFront - a Content Delivery Network (CDN) service. CloudFront uses edge location to achieve such high speed. There is a cost per Gigabyte for both in-and-out S3 data transfer. The Bucket name for transfer acceleration must be DNS compliant.
 
 #aws #awscertification #cloudcomputing #cloud #publiccloud #hyperscaler #terraform #iac #linux #learninpublic
