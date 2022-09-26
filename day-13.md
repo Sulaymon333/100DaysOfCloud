@@ -3,6 +3,7 @@
 ### I continued studying AWS storage services for my AWS SAA-C03 certification and completed important aspects of AWS S3.
 
 - I continued with AWS storage Service. I used S3 for static web hosting without server-side scripting. The bucket has a region-specific endpoint that can be redirected to a custom domain (using AWS Route 53 or other DNS registrar) or another target bucket, the bucket and its contents must be public and the bucket policy updated for public access of bucket objects, with no support for HTTPS, and no support for requester pays.
+
 - Using AWS Cloudfront with S3 static hosting, it is possible to achieve a highly available website with low latency using edge locations.
 
 - I investigated object Lock for AWS S3 budgets. This feature is useful to meet regulatory compliance and it follows the WORM (Write Once Read Many) model. With object Lock, data can be protected from being deleted for a certain retention period. It is only possible to apply object lock while creating an S3 bucket. Versioning must be enabled as well. There are 2 retention modes for object lock.

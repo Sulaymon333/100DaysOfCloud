@@ -12,13 +12,13 @@
 
 - Each bucket name in S3 must be globally unique. Max bucket per account has a soft limit of 100 with a possibility to increase to 1000.
 
-- I learned about versioning of bucket in S3. It is possible for a bucket to be in 3 states - unversioned (default), versioned, and suspended. It is not possible to disable versioning on a bucket after versioning has been enabled. It is only possible to suspend it. Bucket versioning can increase storage costs. Versioning is not recommended on constantly changing files.
+- I learned about versioning of buckets in S3. A bucket to be in 3 states - unversioned (default), versioned and suspended. It is not possible to disable versioning on a bucket after versioning has been enabled. It is only possible to suspend it. Bucket versioning can increase storage costs. Versioning is not recommended on constantly changing files.
 
 - I learned that object-level logging can be enabled on S3 buckets in conjunction with the AWS cloud trail to capture the data events (read/write) using our S3 buckets.
 
 - I learned about tags and how they can be used as S3 cost allocation tags for different business units and cost centers using AWS services within our accounts. Cost Allocation tags with AWS billing must be enabled first.
 
-- I learned about Requester pays features on S3 buckets. It requires authenticated access to the bucket in order for AWS to know whom to bill while the requester makes the request API calls to the bucket. The bucket owner will still pay for the storage cost of the bucket.
+- I learned about the "Requester Pays" feature on S3 buckets. It requires authenticated access to the bucket in order for AWS to know whom to bill while the requester makes the request API calls to the bucket. The bucket owner will still pay for the storage cost of the bucket.
 
 - I recovered from the horrible flu that has been disturbing me for the past few days :)
 
