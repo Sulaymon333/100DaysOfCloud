@@ -6,7 +6,7 @@
 
 - EBS volume encryption can be enabled by users and it is based on the AES-256 algorithm via AWS KMS (Key Management Service) using CMK - Customer Master Keys. EBS volumes that are not encrypted cannot be used to generate encrypted volumes via snapshots. The original volume must be encrypted to achieve encrypted data via snapshots. New EBS can be created from the snapshots when needed.
 
-- There are 2 types of EBS volume - SDD and HDD. SDD is useful for small blocks of data like databases and as boot volumes for EC2 instances. HDD is useful for large blocks of data and high rates of throughputs like big data or log processing but cannot be used as boot volumes.
+- There are 2 types of EBS volume - SSD and HDD. SSD is useful for small blocks of data like databases and as boot volumes for EC2 instances. HDD is useful for large blocks of data and high rates of throughputs like big data or log processing but cannot be used as boot volumes.
 
 - AWS Data Lifecycle Manager (DLM) is meant to schedule and manage the creation and deletion of EBS snapshots to prevent too much storage cost. This eliminates the need for cron jobs to delete EBS volume snapshots when they are no longer needed. AWS DLM relies on tagging your resources. AWS works greatly with AWS CloudWatch events and AWS CloudTrail for automated backup of EC2 instances.
 
