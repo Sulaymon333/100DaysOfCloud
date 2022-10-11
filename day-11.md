@@ -12,7 +12,7 @@
 
 - Each bucket name in S3 must be globally unique. Max bucket per account has a soft limit of 100 with a possibility to increase to 1000.
 
-- I learned about versioning of buckets in S3. A bucket to be in 3 states - unversioned (default), versioned and suspended. It is not possible to disable versioning on a bucket after versioning has been enabled. It is only possible to suspend it. Bucket versioning can increase storage costs. Versioning is not recommended on constantly changing files.
+- I learned about the versioning of buckets in S3. A bucket to be in 3 states - unversioned (default), versioned and suspended. It is not possible to disable versioning on a bucket after versioning has been enabled. It is only possible to suspend it. Bucket versioning can increase storage costs. Versioning is not recommended for constantly changing files.
 
 - I learned that object-level logging can be enabled on S3 buckets in conjunction with the AWS cloud trail to capture the data events (read/write) using our S3 buckets.
 
